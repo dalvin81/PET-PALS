@@ -9,7 +9,7 @@ export default function FindNearby() {
 
   useEffect(() => {
     const script = document.createElement('script');
-    script.src = "https://maps.googleapis.com/maps/api/js?key=AIzaSyDTgPCEA-2ws0TaBRLks2FdEQvQVYrIpvw&callback=initMap&libraries=places";
+    script.src = INSERT GOOGLE MAP API KEY;
     script.async = true;
     script.onload = initMap;
     document.body.appendChild(script);
