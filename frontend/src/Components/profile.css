@@ -1,0 +1,53 @@
+.profile {
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRx7scTiQwMHYOUll06G0EgfWFEpFu7jDzyhw&usqp=CAU");
+    background-size: cover;
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.profileFrame {
+    text-align: center;
+}
+
+.profilePic input[type="file"] {
+    margin-left: 400px;
+    opacity: 100; 
+    cursor: pointer; 
+    top: 50%; 
+    left: 50%; 
+}
+
+.profilePic img {
+    width: 200px; 
+    height: 200px; 
+    border-radius: 50%;
+}
+
+.profileData {
+    margin-top: 20px; 
+}
+
+.profileData input,
+.profileData button {
+    display: block; 
+    width: 300px; 
+    padding: 10px; 
+    margin: 5px auto; 
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+#login-btn {
+    background-color: #007bff;
+    color: #fff; 
+    border: none; 
+    cursor: pointer; 
+}
+
+#login-btn:hover {
+    background-color: #0056b3; 
+}

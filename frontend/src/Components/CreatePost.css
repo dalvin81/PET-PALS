@@ -1,0 +1,49 @@
+.createPost {
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRx7scTiQwMHYOUll06G0EgfWFEpFu7jDzyhw&usqp=CAU");
+    background-size: cover;
+    max-width: 500px;
+    margin: 10px auto;
+    border: 1px solid rgb(173, 173, 173);
+    border-radius: 5px;
+}
+
+.main-div {
+    border-top: 1px solid rgb(173, 173, 173);
+}
+
+.post-header {
+    display: flex;
+}
+
+#post-btn{
+    border: none;
+    color: #339ce3;
+    background:none;
+    font-weight: bolder;
+    cursor: pointer;
+}
+
+.details{
+    border-top: 1px solid rgb(173, 173, 173) ;
+}
+
+textarea{
+    width: 90%;
+    border: none;
+    outline: none;
+}
+
+#output{
+    width: 300px;
+    border: none;
+    outline: none;
+    margin-top: 5px;
+}
+
+.main-div input[type="file"] {
+    margin-left: 150px;
+    opacity: 100; 
+    cursor: pointer; 
+    top: 50%; 
+    left: 50%; 
+}
