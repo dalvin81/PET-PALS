@@ -7,6 +7,7 @@ Pet-pals is a social platform designed exclusively for pet parents to share adve
 - Clone github repository
 - Set directory to backend
 - Edit keys.js and dotenv file in backend folder for Mongo DB and AWS S3 credentials
+- Edit findnearby.js to insert your google maps API key
 - Build docker image and run container
 - Set directory to frontend
 - Install packages using **npm install package.json**
